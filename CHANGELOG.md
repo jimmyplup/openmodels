@@ -5,6 +5,17 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.17.0] - 2026-10-08
+
+### Added
+- **Claude Haiku 5.5** - Anthropic's fastest, lowest-cost Claude 5.5 model, released 2026-10-07, with adaptive thinking, a 1M-token context window, and 128K max output. The direct Anthropic mapping records $0.10 / $0.50 per million input/output tokens, $0.125 cache writes, and $0.01 cache reads for prompts up to 100K tokens. Longer prompts cost $0.50 / $2.50; this is noted in the mapping because the schema has a single price tier. [Anthropic pricing](https://platform.claude.com/docs/en/about-claude/pricing).
+
+### Fixed
+- Anthropic mappings now match the official pricing table. Claude Fable 5 is $10 / $50 (was $15 / $75), and Claude Opus 4.6 and Opus 4.7 are $5 / $25 (were $15 / $75). Five-minute cache writes are corrected for Claude Haiku 4.5 ($1.25), Sonnet 4.5 and Sonnet 4.6 ($3.75), Fable 5 ($12.50), and Opus 4.6 / 4.7 ($6.25). Cache reads are corrected for Claude Sonnet 5.5 ($0.10) and Fable 5 ($1.00).
+
+### Changed
+- Total coverage: 208 models · 52 providers · 283 mappings.
+
 ## [1.16.1] - 2026-10-06
 
 ### Removed

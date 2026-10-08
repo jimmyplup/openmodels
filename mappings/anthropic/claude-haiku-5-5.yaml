@@ -1,0 +1,21 @@
+# Source: https://platform.claude.com/docs/en/about-claude/pricing
+# Prices are for prompts up to 100,000 tokens. Longer prompts cost $0.50 / $2.50 per million input/output tokens,
+# with $0.625 cache writes and $0.05 cache reads. Rate limits depend on the account tier.
+model_id: claude-haiku-5-5
+provider_id: anthropic
+provider_model_name: claude-haiku-5-5
+pricing:
+  input_per_million: 0.10
+  output_per_million: 0.50
+  currency: USD
+  cache_write_per_million: 0.125
+  cache_read_per_million: 0.01
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - us-east-1
+  - eu-west-1
+created_at: "2026-10-07T00:00:00.000Z"
+updated_at: "2026-10-08T00:00:00.000Z"
