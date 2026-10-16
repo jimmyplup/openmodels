@@ -1,0 +1,21 @@
+# Source: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16
+id: nemotron-3-5-super-vl
+name: Nemotron 3.5 Super VL
+description: NVIDIA's open multimodal mixture-of-experts model with 120B total and 12B active parameters for reasoning, coding, tool use, and long-running agents. Accepts text, images, document pages, and video with up to 1,048,576 tokens of context. Released under OpenMDW 1.1; hosted endpoints may expose smaller context limits.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1048576
+licensing: other
+country: us
+created_at: "2026-10-15T00:00:00.000Z"
+updated_at: "2026-10-16T00:00:00.000Z"

@@ -1,0 +1,20 @@
+# Source: https://ai.google.dev/gemini-api/docs/pricing (verified 2026-10-16)
+# Standard introductory rates through 2026-11-30. From 2026-12-01 Google
+# announces input/output/cache-read rates of $4/$20/$0.20. Recheck before updating.
+# Implicit caching only; thinking tokens are included in output pricing.
+model_id: gemini-4-argon
+provider_id: google-ai-studio
+provider_model_name: gemini-4-argon
+pricing:
+  input_per_million: 2
+  output_per_million: 10
+  cache_read_per_million: 0.1
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-10-13T00:00:00.000Z"
+updated_at: "2026-10-16T00:00:00.000Z"

@@ -1,0 +1,18 @@
+# Sources: https://moondream.ai/blog/moondream-3-1-beyond-benchmarks
+# https://huggingface.co/moondream/moondream3.1-9B-A2B
+# Context is the published OpenRouter serving limit, not a claimed training limit.
+id: moondream-3-1-9b-a2b
+name: Moondream 3.1 9B-A2B
+description: Moondream's vision-language mixture-of-experts model with 9B total and 2B active parameters for visual question answering, captioning, object detection, and pointing. Released July 7, 2026 under the Moondream Model License 1.0, with local inference through Photon and hosted access. The listed 32,000-token context reflects the OpenRouter endpoint.
+capabilities:
+  - chat
+  - completion
+  - vision
+  - reasoning
+modalities:
+  - text
+  - image
+context_window: 32000
+licensing: other
+created_at: "2026-07-07T00:00:00.000Z"
+updated_at: "2026-10-16T00:00:00.000Z"

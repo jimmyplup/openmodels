@@ -1,0 +1,21 @@
+# Sources: https://dev.meta.ai/models/muse-wonder
+# https://research.meta.ai/blog/muse-wonder
+id: muse-wonder-full
+name: Muse Wonder Full
+description: Meta's higher-capability Muse Wonder variant for demanding coding, computer use, and long-running agentic workflows, with a published 1M-token context window. Available only through the Power Usage and Maximum Usage subscriptions in Muse Code. Not offered through the pay-as-you-go Model API; no per-token API price is published.
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - code
+context_window: 1000000
+licensing: proprietary
+country: us
+created_at: "2026-10-12T00:00:00.000Z"
+updated_at: "2026-10-16T00:00:00.000Z"

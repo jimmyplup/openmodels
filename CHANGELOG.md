@@ -5,6 +5,19 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.18.0] - 2026-10-16
+
+### Added
+- **Muse Wonder**, **Muse Wonder Full**, **Muse Spark Open**, **Nemotron 3.5 Super VL**, **Nemotron 3.5 Bolt 74B-A9B 24GB**, and **Moondream 3.1 9B-A2B**, checked against official model documentation. Moondream retains its July 7 release date; its October OpenRouter listing is not a new model release.
+- Seven provider mappings: Gemini 4 Argon on Google AI Studio and OpenRouter; Muse Wonder on Meta Model API and OpenRouter; Muse Spark Open, Nemotron 3.5 Super VL, and Moondream 3.1 on OpenRouter. Rates, cache prices, and endpoint IDs were verified on October 16. Unpublished or account-specific rate limits remain null.
+- Wonder Full is subscription-only in Muse Code; Bolt is available for self-hosting. Neither receives a fabricated token price or hosted API mapping. Step 5 Preview and LFM2.5-24B-A2B are intentionally excluded.
+
+### Changed
+- Gemini 4 Argon now reflects general API availability since October 13 and its unified 1,048,576-token window. Standard rates are **$2 input / $10 output / $0.10 cached input** per million tokens through November 30. Google's announced December 1 rates are $4 / $20 / $0.20; they are documented, not prematurely applied. [Google pricing](https://ai.google.dev/gemini-api/docs/pricing).
+- Meta's provider metadata now uses the authenticated OpenAI-compatible `https://api.meta.ai/v1` endpoint. Wonder's Standard pricing is $4 / $20, with $0.20 cached input. [Meta pricing](https://dev.meta.ai/docs/pricing-rate-limits).
+- Nemotron Super VL's OpenRouter mapping preserves the currently advertised top-provider context limit of 262,144 tokens, distinct from the canonical 1M model context. [OpenRouter catalog](https://openrouter.ai/api/v1/models).
+- Total coverage: **214 models, 52 providers, 290 mappings**.
+
 ## [1.17.0] - 2026-10-08
 
 ### Added
