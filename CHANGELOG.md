@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gemini 4 Argon now reflects general API availability since October 13 and its unified 1,048,576-token window. Standard rates are **$2 input / $10 output / $0.10 cached input** per million tokens through November 30. Google's announced December 1 rates are $4 / $20 / $0.20; they are documented, not prematurely applied. [Google pricing](https://ai.google.dev/gemini-api/docs/pricing).
 - Meta's provider metadata now uses the authenticated OpenAI-compatible `https://api.meta.ai/v1` endpoint. Wonder's Standard pricing is $4 / $20, with $0.20 cached input. [Meta pricing](https://dev.meta.ai/docs/pricing-rate-limits).
 - Nemotron Super VL's OpenRouter mapping preserves the currently advertised top-provider context limit of 262,144 tokens, distinct from the canonical 1M model context. [OpenRouter catalog](https://openrouter.ai/api/v1/models).
-- Total coverage: **214 models, 52 providers, 290 mappings**.
+- Total coverage: **214 models, 52 providers, 289 mappings**. Counts exclude the hidden extended-pricing example, which is validated as documentation but not ingested as a live connection.
 
 ## [1.17.0] - 2026-10-08
 
