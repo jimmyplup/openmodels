@@ -1,0 +1,21 @@
+# Sources checked 2026-10-20:
+# https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B
+# https://github.com/XingChen-AGI/Xing4.0-29B-A4B
+# The model was released September 17; its OpenRouter listing is from October.
+id: xing-4-0-29b-a4b
+name: Xing4.0-29B-A4B
+description: "China Telecom's TeleAI open-weight mixture-of-experts language model with 29B total and 4B active parameters, supporting reasoning, coding, and tool use. Released under Apache 2.0 with a native 262,144-token context. OpenRouter currently offers a free endpoint, subject to its availability and usage limits."
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - code
+context_window: 262144
+licensing: apache-2.0
+country: cn
+created_at: "2026-09-17T00:00:00.000Z"
+updated_at: "2026-10-20T00:00:00.000Z"

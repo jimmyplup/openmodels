@@ -1,0 +1,23 @@
+# Sources checked 2026-10-20:
+# https://www.minimax.io/blog/minimax-m31f
+# https://platform.minimax.io/docs/api-reference/text-openai-api
+id: minimax-m3-1-flash
+name: MiniMax M3.1 Flash
+description: "MiniMax's multimodal reasoning model for coding, tool use, and long-running agents, with a 1,000,000-token context and text, image, and video input. Available through the MiniMax API; downloadable weights are announced but not yet released. OpenRouter currently offers a free endpoint, subject to its availability and usage limits."
+capabilities:
+  - chat
+  - completion
+  - function-calling
+  - vision
+  - code-generation
+  - reasoning
+modalities:
+  - text
+  - image
+  - video
+  - code
+context_window: 1000000
+licensing: proprietary
+country: cn
+created_at: "2026-10-19T00:00:00.000Z"
+updated_at: "2026-10-20T00:00:00.000Z"

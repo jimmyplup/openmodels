@@ -5,6 +5,20 @@ All notable changes to the OpenModels Registry will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.19.0] - 2026-10-20
+
+### Added
+- **MiniMax M3.1 Flash**, **Mercury 3**, and **Xing4.0-29B-A4B**, verified against developer documentation and model cards. MiniMax's weights remain unreleased; Xing retains its September 17 release date and Apache 2.0 license.
+- Five provider mappings: MiniMax M3.1 Flash on MiniMax and OpenRouter, Mercury 3 and Xing4.0 on OpenRouter, and DeepSeek V4.1 Flash 1017 on the direct DeepSeek API. Unknown rate limits remain null.
+- MiniMax's direct price is $0.15 input / $0.60 output / $0.015 cached input per million tokens. Mercury 3 uses its current $0.10 / $0.35 / $0.01 launch rates, with the announced $0.20 / $0.70 standard rates documented separately. OpenRouter's free MiniMax and Xing endpoints are not promises of permanent or unlimited free access. [MiniMax](https://www.minimax.io/blog/minimax-m31f), [Inception](https://www.inceptionlabs.ai/blog/introducing-mercury-3), [OpenRouter catalog](https://openrouter.ai/api/v1/models).
+
+### Changed
+- Updated **DeepSeek V4.1 Flash** to the **1017** checkpoint and verified its MIT license. Both mappings record peak prices of $0.30 / $1.20 / $0.006; the lower $0.15 / $0.60 / $0.003 off-peak rates are documented because the schema cannot represent timed pricing. [DeepSeek pricing](https://api-docs.deepseek.com/quick_start/pricing/).
+- Promoted **Pareto 26.10** from preview to the October 15 stable release and changed its OpenRouter API identifier to `unbiased/pareto-26.10`. Its $0.80 / $3.20 / $0.03 pricing is unchanged. [Unbiased changelog](https://unbiased.ai/changelog/).
+- Kept existing DeepSeek and Pareto registry IDs and initial release dates to preserve page URLs, favorites, and price-history continuity; descriptions identify the checkpoint and GA dates.
+- Updated MiniMax's OpenAI-compatible base URL to `https://api.minimax.io/v1`, as documented by the provider.
+- Total coverage: **217 models, 52 providers, 294 mappings**, excluding the hidden pricing example. No other models are added.
+
 ## [1.18.0] - 2026-10-16
 
 ### Added

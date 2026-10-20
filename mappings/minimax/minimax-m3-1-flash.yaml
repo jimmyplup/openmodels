@@ -1,0 +1,19 @@
+# Sources: https://www.minimax.io/blog/minimax-m31f
+# https://platform.minimax.io/docs/api-reference/text-openai-api
+# Flat USD pricing checked 2026-10-20. Account-specific limits are not assumed.
+model_id: minimax-m3-1-flash
+provider_id: minimax
+provider_model_name: MiniMax-M3.1-Flash
+pricing:
+  input_per_million: 0.15
+  output_per_million: 0.60
+  cache_read_per_million: 0.015
+  currency: USD
+rate_limits:
+  requests_per_minute: null
+  tokens_per_minute: null
+context_window_override: null
+available_regions:
+  - global
+created_at: "2026-10-19T00:00:00.000Z"
+updated_at: "2026-10-20T00:00:00.000Z"

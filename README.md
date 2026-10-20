@@ -2,7 +2,7 @@
 
 The open-source registry of LLM models, inference providers, and provider-model mappings. Community-maintained, schema-validated, and machine-readable.
 
-**Current stats:** 214 models · 52 providers · 289 mappings
+**Current stats:** 217 models · 52 providers · 294 mappings
 
 ## Overview
 
@@ -16,7 +16,7 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Anthropic | Claude Haiku 5.5, Claude Sonnet 5.5, Claude Opus 5.5, Claude Fable 5.1, Claude Opus 5, Claude Sonnet 5, Claude Mythos 5, Claude Fable 5, Claude Opus 4.8, Claude Opus 4.7, Claude Sonnet 4.6, Claude Opus 4.6, Claude Sonnet 4.5, Claude Haiku 4.5, Claude 3 Opus |
 | Google | Gemini 4 Argon, Gemini 3.8 Flash, Gemini 3.7 Flash, Gemini 3.6 Flash, Gemini 3.5 Flash-Lite, Gemini 3.5 Flash Cyber, Gemini 3.5 Pro, DiffusionGemma, Gemma 4 12B, Gemini 3 Flash, Gemini 3.5 Flash, Gemini 3.1 Flash-Lite, Gemma 4 (E2B/E4B/26B/31B), Gemini 3.1 Pro, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemma 3 (1B/4B/12B/27B) |
 | xAI | Grok 4.7, Grok 4.6, Grok 4.5, Grok 4.3, Grok 4.20, Grok 4.1 Fast, Grok 4 |
-| DeepSeek | DeepSeek V4.1 Flash, DeepSeek V4 Flash Vision Exp, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
+| DeepSeek | DeepSeek V4.1 Flash 1017, DeepSeek V4 Flash Vision Exp, DeepSeek V4 Pro, DeepSeek V4 Flash, DeepSeek V4, DeepSeek R1, DeepSeek V3 |
 | Meta | Muse Spark 1.3, Muse Spark 1.2, Muse Glimmer 30B, Muse Spark 1.1, Muse Spark, Llama 4 Scout, Llama 4 Maverick, Llama 3.3 70B, Llama 3.2 (3B/11B/90B), Llama 3.1 8B |
 | Mistral | Mistral Large 4, Mistral Small 4, Mistral Medium 3.5, Mistral Large 3, Devstral 2, Mistral Small 3.1, Codestral |
 | Alibaba | Qwen 3.8 Max Prime, Qwen 3.8 Omni Flash, Qwen 3.8 Flash, Qwen3.8-Flash-Next, Qwen 3.8 Max, Qwen 3.8 2.4T-A95B, Qwen 3.8 27B, Qwen Flash Character, Qwen 3.7 Flash, Qwen 3.7 Plus, Qwen 3.7 Max, Qwen 3.6 (27B, 35B-A3B, Plus), Qwen 3.6, Qwen3 Coder, Qwen3 235B, Qwen3 32B, QwQ-32B |
@@ -24,7 +24,8 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Cohere | Command A+, Command A, Command R7B |
 | Cohere For AI | Tiny Aya, Aya Expanse 32B |
 | Zhipu | GLM-5.3-Prime, GLM-5.3-FlashX, GLM-5.3-Flash, GLM-5.3, GLM-5.2, GLM-5.1, GLM-4.7 |
-| MiniMax | M3, M2.7 |
+| MiniMax | M3.1 Flash, M3, M2.7 |
+| China Telecom (TeleAI) | Xing4.0-29B-A4B |
 | Sarvam AI | Sarvam-M, Sarvam-105B, Sarvam-30B, Sarvam-1 |
 | Sakana AI | Sakana Fugu Ultra v2, Sakana Fugu Max, Sakana Namazu, Sakana Fugu Ultra, Sakana Fugu |
 | Motif Technologies | Motif 3 Beta |
@@ -55,12 +56,12 @@ OpenModels is a structured, version-controlled registry that serves as the singl
 | Meituan | LongCat 2.0 |
 | Kwaipilot | KAT-Coder-Pro V2.5 |
 | Fireworks Research | Ember-1 |
-| Inception | Mercury 2.5 |
+| Inception | Mercury 3, Mercury 2.5 |
 | Perceptron | Perceptron Mk1.5 |
 | AionLabs | Aion 3.5, Aion 3.5 Mini |
 | Nex AGI | Nex-N2.5-Pro, Nex-N2.5-Mini |
 | PrismML | Ternary Bonsai 2 27B |
-| Unbiased | Pareto 26.10 Preview, Pareto |
+| Unbiased | Pareto 26.10, Pareto |
 | Dots Studio | Dots3-Note Preview |
 | Liquid AI | LFM2.5-2.6B |
 | Inference.net | Schematron V2 Turbo, Schematron V2 Small |
